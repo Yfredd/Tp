@@ -1,0 +1,27 @@
+#include <iostream>
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+int numero;
+int par;
+int impar;
+int i=1;
+int n;
+cout<<"ingrese cantidad denumeros"<<endl;
+cin>>n;
+while(i<=n)
+{
+cout<<"ingrese numero"<<endl;
+cin>>numero;
+if(numero %2==0)
+{par ++;}
+else
+{impar ++;}
+i++;
+}
+cout<<"cantidad de numeros pares"<<par<<endl;
+cout<<"cantidad de numeros impares"<<impar<<endl;
+return 0;
+}
